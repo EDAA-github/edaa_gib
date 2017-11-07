@@ -26,7 +26,7 @@ Our site is here: [FAT-GIT](https://fat-git.herokuapp.com)
 - All members of EDAA – are students of Kryvyi Rih National University
 - Our favorite direction of programming – WEB-development
 - The title of team – is an abbreviate from our names
-- Contact us: [EDAA](edaa.team@gmail.com)
+- Contact us: edaa.team@gmail.com
 
 ## Scripts
 `npm install` - Installs all important modules.
