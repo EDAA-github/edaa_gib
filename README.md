@@ -29,4 +29,5 @@ Our site is here: [FAT-GIT](https://fat-git.herokuapp.com)
 - Contact us: [EDAA](edaa.team@gmail.com)
 
 ## Scripts
+`npm install` - Installs all important modules
 `npm start` - Runs the app. Open http://localhost:3000 to view it in the browser.
