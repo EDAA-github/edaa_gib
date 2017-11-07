@@ -3,9 +3,8 @@ const issuesPerPage = 10;
 // const commentsPerPage = 10;
 const commentsPerPage = 150;
 const repoCommentsPerPage = 10;
-
-// const PERSONAL_ACCESS_TOKEN = 'ad41cd3dfea94ca4cf40431cf239f2abb2421834';
-const PERSONAL_ACCESS_TOKEN = '6ea9e8fae7e2a68887a45996a662fbe35fc9b721';
+let base64 = require('base-64');
+const PERSONAL_ACCESS_TOKEN = base64.decode('MDg1NzFiNmM5ZDM0Njk3ZWFjMmI0NmY5OGQ1NmJjYTZmZjE4NmFjOQ==');
 
 let getLabelsForRepo = function (repoOwner, repoName) {
   return new Promise(function (resolve, reject) {
