@@ -5,7 +5,7 @@ const commentsPerPage = 150;
 const repoCommentsPerPage = 10;
 
 // const PERSONAL_ACCESS_TOKEN = 'ad41cd3dfea94ca4cf40431cf239f2abb2421834';
-const PERSONAL_ACCESS_TOKEN = 'e4268721eca0e5253b0e9e5713df6f195e4299f4';
+const PERSONAL_ACCESS_TOKEN = '6ea9e8fae7e2a68887a45996a662fbe35fc9b721';
 
 let getLabelsForRepo = function (repoOwner, repoName) {
   return new Promise(function (resolve, reject) {
